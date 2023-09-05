@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical">
+
+<EditText
+    android:id="@+id/username_input"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="160dp"
+    android:ems="10"
+    android:textColor="#000"
+    android:textColorHint="#CCCCCC"
+    android:hint="Enter Your Full Name"
+    android:inputType="textPersonName"
+    android:textSize="18sp" />
+
+<Button
+    android:id="@+id/button"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="100dp"
+    android:onClick="onButtonClick"
+    android:text="Submit" />
+
+</LinearLayout>
